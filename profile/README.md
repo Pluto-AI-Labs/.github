@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6FE0FF&center=true&vCenter=true&width=650&lines=Building+open-source+AI+infrastructure...;Training+SOTA+edge+models...;Shipping+MLOps+%26+evaluation+tooling...;Intelligence+isn't+about+scale.+It's+about+precision.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=48494B&center=true&vCenter=true&width=650&lines=Building+open-source+AI+infrastructure...;Training+SOTA+edge+models...;Shipping+MLOps+%26+evaluation+tooling...;Intelligence+isn't+about+scale.+It's+about+precision.)](https://git.io/typing-svg)
 
 <br/>
 
