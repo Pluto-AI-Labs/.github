@@ -1,0 +1,97 @@
+<div align="center">
+
+# 🪐 Pluto AI Research Lab
+
+### Building open-source AI infrastructure, SOTA edge models, and evaluation tooling.
+
+*Intelligence isn't about scale. It's about precision.*
+
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Pluto%20AI-yellow?style=for-the-badge)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/pluto-ai-research-lab?style=for-the-badge&logo=github&color=181717)](#)
+
+</div>
+
+---
+
+## 🚀 Our Mission
+
+The AI industry is obsessed with scaling up — building massive, bloated models that require millions of dollars in compute to run.
+
+**Pluto AI Research Lab is obsessed with scaling down.**
+
+We are dedicated to proving that elite AI reasoning, coding, and mathematical logic can be achieved on consumer-grade hardware. We build the models, the datasets, and the MLOps tooling required to deploy State-of-the-Art AI directly to the edge — running locally on laptops, phones, and offline servers without sacrificing performance, quality, or privacy.
+
+---
+
+## 🛠️ The Ecosystem
+
+We don't just train models; we build the infrastructure to evaluate and deploy them. Here is our current open-source stack:
+
+| Project | Description | Type | Status |
+|---|---|:---:|:---:|
+| 🧬 **[llm-diff](#)** | `git diff` for LLM behavior. A CLI tool that runs behavioral regression testing on language models to catch silent degradations before deployment. | Dev Tool | ![Beta](https://img.shields.io/badge/-Beta-orange) |
+| 🛠️ **[Atlas-Coder-2-0.5B](#)** | A Top-Tier sub-1B coding model. Beats Qwen2.5-Coder and DeepSeek on strict EvalPlus benchmarks. Runs at 75 tok/s on an 8GB MacBook Air. | Model | ![SOTA](https://img.shields.io/badge/-SOTA-brightgreen) |
+| 📚 **[Orbit-200K](#)** | A 200K row, zero-bloat, execution-verified reasoning dataset (Math + Code + General) for universal LLM fine-tuning. | Dataset | ![Stable](https://img.shields.io/badge/-Stable-blue) |
+| 🧠 **[Pluto-Genesis-0.6B](#)** | A general-purpose 0.6B LLM fine-tuned for edge reasoning, math, and task completion. | Model | ![Stable](https://img.shields.io/badge/-Stable-blue) |
+
+---
+
+## 📄 Research & Whitepapers
+
+We believe in rigorous, reproducible AI research. Our technical whitepapers are open to the community:
+
+- **[The Illusion of Improvement](#)** — An empirical study on how successive LLM releases trade behavioral fidelity for benchmark scores, and the critical need for behavioral regression testing in MLOps pipelines.
+- **The Triad Dilemma** *(Upcoming)* — An empirical study on cross-domain weight interference in DARE-TIES model merging, fusing Qwen General, Coder, and Math models into a single 7B architecture with zero GPU training.
+
+---
+
+## ⚡ Our Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Model Training**
+- PyTorch
+- HuggingFace Transformers
+- PEFT / TRL
+- QLoRA (4-bit NF4)
+
+</td>
+<td valign="top" width="33%">
+
+**MLOps & Infrastructure**
+- Custom Cross-Session Checkpoint Recovery
+- Decontamination Pipelines
+- MinHash Deduplication
+
+</td>
+<td valign="top" width="33%">
+
+**Edge Deployment & Eval**
+- llama.cpp / GGUF Quantization
+- Ollama / LM Studio
+- EvalPlus (HumanEval+ / MBPP+)
+- lm-evaluation-harness
+- Custom Behavioral Probes
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤝 Connect & Contribute
+
+Pluto AI Research Lab is built by a single founder-engineer, powered by AI orchestration and free-tier compute. We are always looking for contributors, researchers, and builders who want to make efficient AI accessible to everyone.
+
+Check out our repositories, open issues, or reach out directly to collaborate.
+
+<div align="center">
+
+**"Intelligence isn't about scale. It's about precision."**
+
+© 2026 Pluto AI Research Lab
+
+</div>
